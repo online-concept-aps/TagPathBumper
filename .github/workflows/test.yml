@@ -1,7 +1,7 @@
 on: 
   push: 
     branches: 
-      - 'main'   
+      - 'main'
 jobs:
   generate-tag:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: '0'
           ref: ${{ github.ref_name }}
-      - uses: online-concept-aps/TagPathBumper@v0.0.10
+      - uses: online-concept-aps/TagPathBumper@v0.0.11
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           prefix-tag: 'customer'
