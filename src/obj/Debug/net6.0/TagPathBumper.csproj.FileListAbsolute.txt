@@ -1,0 +1,15 @@
+C:\programmering\github actions\TagPathBumber\src\bin\Debug\net6.0\TagPathBumper.exe
+C:\programmering\github actions\TagPathBumber\src\bin\Debug\net6.0\TagPathBumper.deps.json
+C:\programmering\github actions\TagPathBumber\src\bin\Debug\net6.0\TagPathBumper.runtimeconfig.json
+C:\programmering\github actions\TagPathBumber\src\bin\Debug\net6.0\TagPathBumper.dll
+C:\programmering\github actions\TagPathBumber\src\bin\Debug\net6.0\TagPathBumper.pdb
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.csproj.AssemblyReference.cache
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.GeneratedMSBuildEditorConfig.editorconfig
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.AssemblyInfoInputs.cache
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.AssemblyInfo.cs
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.csproj.CoreCompileInputs.cache
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.dll
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\refint\TagPathBumper.dll
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.pdb
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\TagPathBumper.genruntimeconfig.cache
+C:\programmering\github actions\TagPathBumber\src\obj\Debug\net6.0\ref\TagPathBumper.dll
