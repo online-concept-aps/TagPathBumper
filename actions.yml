@@ -1,0 +1,21 @@
+name: 'My custom action using C#'
+branding:
+  icon: arrow-right-circle
+  color: purple
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+  prefix-tag:
+    description: 'GitHub token'
+    required: true
+outputs:
+  new-tag:
+    description: 'The tag'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.github-token }}
+    - ${{ inputs.prefix-tag }}
+  entrypoint: "/app/entrypoint.sh"
