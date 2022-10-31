@@ -5,5 +5,5 @@
     git add .
     git commit -m "commit message"
     git tag -a -m "My release message" v$version
-    git push -u origin main --follow-tags
+    git push -u origin main --follow-tags 
 ```
