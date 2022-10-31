@@ -1,6 +1,6 @@
 name: 'My custom action using C#'
 branding:
-  icon: arrow-right-circle
+  icon: arrow-right-circle 
   color: purple
 inputs:
   github-token:
