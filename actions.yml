@@ -4,10 +4,10 @@ branding:
   color: purple
 inputs:
   github-token:
-    description: 'GitHub token'
-    required: true
+    description: 'GitHub token' 
+    required: true 
   prefix-tag:
-    description: 'Prefix tag service name to bump'  
+    description: 'Prefix tag service name to bump'
     required: true
 outputs:
   new-tag:
