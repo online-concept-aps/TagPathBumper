@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as builder
-COPY / /app
+COPY . /app
 RUN dotnet publish -c Release -o /out /app/custom-action.csproj
 COPY entrypoint.sh /out/entrypoint.sh
 
