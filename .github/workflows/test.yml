@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: '0'
           ref: ${{ github.ref_name }}
-      - uses: online-concept-aps/TagPathBumper@v0.0.11
+      - uses: online-concept-aps/TagPathBumper@v0.0.12
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           prefix-tag: 'customer'
