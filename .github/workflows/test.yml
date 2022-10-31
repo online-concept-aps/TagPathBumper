@@ -10,9 +10,10 @@ jobs:
         with:
           fetch-depth: '0'
           ref: ${{ github.ref_name }}
-      - uses: online-concept-aps/PathTagBump@v0.0.3 
+      - uses: online-concept-aps/TagPathBumper@v0.0.3
+        id: tagpathbump 
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           prefix-tag: 'customer'
-#      - name: show tag what
-#        run: echo "the new tag is ${{ steps.pathtagbump.outputs.new-tag  }}"
+      - name: show tag what
+        run: echo "the new tag is ${{ steps.tagpathbump.outputs.new-tag  }}"
